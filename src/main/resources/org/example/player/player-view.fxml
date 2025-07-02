@@ -20,9 +20,9 @@
               styleClass="custom-list-view"/>
 
     <HBox spacing="18" alignment="CENTER">
-        <Button fx:id="prevBtn" text="⏮" styleClass="player-btn" style="-fx-background-color: #a5d6a7; -fx-text-fill: #1b5e20; -fx-font-weight: bold;"/>
-        <Button fx:id="playBtn" text="▶" styleClass="player-btn" style="-fx-background-color: #a5d6a7; -fx-text-fill: #1b5e20; -fx-font-weight: bold;"/>
-        <Button fx:id="pauseBtn" text="⏸" styleClass="player-btn" style="-fx-background-color: #a5d6a7; -fx-text-fill: #1b5e20; -fx-font-weight: bold;"/>
-        <Button fx:id="nextBtn" text="⏭" styleClass="player-btn" style="-fx-background-color: #a5d6a7; -fx-text-fill: #1b5e20; -fx-font-weight: bold;"/>
+        <Button fx:id="prevBtn" text="⏮" styleClass="player-btn" style="-fx-background-color: #95b7f1; -fx-text-fill: #6804c5; -fx-font-weight: gold;"/>
+        <Button fx:id="playBtn" text="▶" styleClass="player-btn" style="-fx-background-color: #95b7f1; -fx-text-fill: #6804c5; -fx-font-weight: gold;"/>
+        <Button fx:id="pauseBtn" text="⏸" styleClass="player-btn" style="-fx-background-color: #95b7f1; -fx-text-fill: #6804c5; -fx-font-weight: gold;"/>
+        <Button fx:id="nextBtn" text="⏭" styleClass="player-btn" style="-fx-background-color: #95b7f1; -fx-text-fill: #6804c5; -fx-font-weight: gold;"/>
     </HBox>
 </VBox>
