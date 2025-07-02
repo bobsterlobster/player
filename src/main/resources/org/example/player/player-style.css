@@ -1,0 +1,37 @@
+/* Кнопки управления */
+.player-btn {
+    -fx-background-color: #001a4d;
+    -fx-text-fill: #00bfff;
+    -fx-font-size: 20px;
+    -fx-background-radius: 50%;
+    -fx-pref-width: 44px;
+    -fx-pref-height: 44px;
+    -fx-effect: dropshadow(gaussian, #00bfff, 8, 0.5, 0, 0);
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+/* Чёрный список */
+.black-list-view {
+    -fx-background-color: #000000;
+    -fx-control-inner-background: #000000;
+    -fx-border-color: #00bfff;
+    -fx-border-width: 2;
+    -fx-border-radius: 7;
+    -fx-background-radius: 7;
+}
+
+.list-cell {
+    -fx-background-color: #000000;
+    -fx-text-fill: #00bfff;
+    -fx-font-size: 16px;
+    -fx-border-color: transparent transparent #003399 transparent;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 8 8 8 16;
+}
+
+.list-cell:filled:selected, .list-cell:filled:selected:focused {
+    -fx-background-color: #00bfff;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+}
